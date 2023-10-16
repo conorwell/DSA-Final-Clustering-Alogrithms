@@ -9,7 +9,7 @@ Our goal for this project was to implement and test a variety of clustering algo
 Methods:
 - Dataset Methods: These methods (found in dataset_methods.py) are called with an argument for how many points should be made, and return a list of that many tuples arranged in a specific pattern depending on the data set.
 - DBScan(graph, bag): The DBScan method (found in DBScan.py) takes arguments of a graph, and a bag data stucture. The return type is a dictionary which can be used to visualize clusters with nx.draw_networkx
-- 
+- k_means(list, k): The k-means method (found in k_means.py) takes arguments of a list of tuples, list, and the amount of clusters to be made, k. The return value is a list of the lists of clusters made by the k-means algorithm over a hardcoded amount of iterations. Data is visualized by importing matplotlib and using a visualize(list) method that unpacks the tuples stored in a list to be plotted.
 
 
 
