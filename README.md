@@ -18,7 +18,7 @@ We tested each clustering algorithm on toy datasets of 5 different shapes. We wa
 
 The experiements for each clustering algorithm can be found in their respective notebooks:
 - DBScan_Experiment.ipynb
-- KMeans_Experiement.ipynb
+- k_means_experiments.ipynb
 - Hierarchichal_Experiemnt.ipynb
 - Spectral_Experiment.ipynb
 
