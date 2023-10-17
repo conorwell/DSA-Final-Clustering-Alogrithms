@@ -24,4 +24,5 @@ The experiements for each clustering algorithm can be found in their respective 
 - Spectral_Experiment.ipynb
 
 Results:
-We found K-Means to be the fastest on all sets, regardless of density. We found our DBScan to be much slower than this, but with the advantage of more accurate clusters, and not having to specify the amount of clusters. Hierarchichal clustering was much slower than both, and took too long to realistically run on all five datasets of 1000 points. More information on our results can be found in (PLACEHOLDER FOR SLIDE DECK)
+We found K-Means to be the fastest on all sets, regardless of density. We found our DBScan to be much slower than this, but with the advantage of more accurate clusters, and not having to specify the amount of clusters. Hierarchichal clustering was much slower than both, and took too long to realistically run on all five datasets of 1000 points. More information on our results can be found in Clustering_Algorithms.pdf
+
